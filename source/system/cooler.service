@@ -1,0 +1,11 @@
+[Unit]  
+Description=Heksa cooler  
+After=multi-user.target  
+[Service]  
+Type=simple  
+Restart=always  
+ExecStart=/usr/bin/python -u /usr/local/bin/cooler.py
+user=pi
+group=pi
+[Install]  
+WantedBy=multi-user.target 
