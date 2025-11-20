@@ -13,6 +13,6 @@ I installation of cooling system:
 5. run command `sudo systemctl start cooler.service`
 6. run command `sudo systemctl status cooler.service` to get status of service
 
-Other scripts running as service will come later. Some in ideas:
+Other scripts running as service will come later. Some ideas:
 - AI powered voice commands
 - human detection with nightvision camera
